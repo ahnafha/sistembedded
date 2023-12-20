@@ -85,7 +85,7 @@ tabel menyesuaikan project masing-masing).
 
 ![7A(9)Buat tabel menggunakan perintah seperti pada Gambar 6 2  (nama dan row](https://github.com/ahnafha/sistembedded/assets/154432108/fd3943d6-9f5a-4fd3-b2c1-b352a05e0945)
 
-Basic Flow Transmisi Data Menggunakan Protokol HTTP
+B. Basic Flow Transmisi Data Menggunakan Protokol HTTP
 1. Install Postman pada Komputer Windows, kemudian lakukan pendaftaran
 akun.
 2. Buatlah flow program seperti pada Gambar 6.3. Gunakan HTTP In node dan
