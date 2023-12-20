@@ -27,6 +27,7 @@ di luar ruangan. Pada awal kemunculannya, wifi hanya digunakan sebagai
 perangkat nirkabel pada jaringan LAN (Local Area Network) akan tetapi karena
 pesatnya teknologi di zaman sekarang wifi menjadi kebutuhan sehari-hari untuk
 akses jaringan internet dan IoT.
+
 Berbagai data yang kita minta atau kirimkan melalui wifi didistribusikan
 melalui gelombang radio di udara. Supaya data tersebut bisa terbaca maka harus
 ada yang namanya wireless adaptor yang menghubungkan ke wifi. Gelombang
@@ -36,3 +37,48 @@ memanfaatkan koneksi ethernet. Karena jaringan wifi ini bekerja dua arah maka
 tiap data yang diterima dalam waktu yang sama menjadi kode pada tiap paket data
 lalu dikirim kembali dalam bentuk sinyal radio yang diterima adaptor komputer
 nirkabel.
+
+LANGKAH PERCOBAAN
+A. ESP32 Wi-Fi Modes dan Wifi-Scan
+1. Pada ESP32, terdapat 3 mode akses untuk Wifi, yaitu WIFI_STA (station
+mode : ESP32 sebagai client yang terkoneksi ke access point), WIFI_AP
+(access point mode : ESP32 berperan sebagai access point), WIFI_STA_AP
+(access point and station : ESP32 dapat terkoneksi dengan access point yang
+lain).
+2. Buka Arduino IDE dan upload script program berikut ke ESP32 untuk
+melakukan scan jaringan Wi-Fi.
+3. Buka serial monitor dan dokumentasikan outputnya.
+4. Buatlah flow chart program diatas.
+
+B. Menghubungkan ESP32 dengan Jaringan Wi-Fi
+1. Buatlah program seperti script dibawah ini, kemudian upload program
+tersebut ke ESP32.
+2. Buka serial monitor, kemudian dokumentasikan outputnya.
+3. Buatlah flow chart program diatas.
+C. Menghubungkan Kembali (Re-connect) ESP32 dengan Jaringan Wi-Fi
+1. Buatlah program seperti script dibawah ini, kemudian upload program
+tersebut ke ESP32.
+2. Buka serial monitor, kemudian matikan paket data sebentar hingga koneksi
+ESP32 dengan jaringna Wi-Fi terputus. Setelah itu, nyalakan lagi paket data.
+Dokumentasikan proses yang terjadi.
+3. Buatlah flow chart program diatas.
+D. Mengganti Hostname ESP32
+1. Buatlah program seperti script dibawah ini, kemudian upload program
+tersebut ke ESP32.
+2. Buka serial monitor, kemudian aktifkan mode koneksi Wi-Fi pada Smart-
+Phone atau Laptop. Lakukan scan dan lihat daftar jaringan Wi-Fi yang
+tersedia. Dokumentasikan hasil keluarannya.
+3. Buatlah flow chart program diatas.
+E. Mengirim Data Sensor ke Database
+1. Buatlah rangkaian seperti Gambar di bawah ini.
+   1. Install library Asynch Web Server dan Asycnh TCP untuk ESP 32 dengan
+cara download dari link berikut ini.
+a. https://github.com/me-no-dev/ESPAsyncWebServer
+b. https://github.com/me-no-dev/AsyncTCP/archive/master.zip
+Install library tersebut secara manual dengan cara menyalin folder hasil
+ekstraksi file.zip ke direktori libarary Arduino di folder Document.
+2. Buatlah script program seperti berikut ini
+3. Upload program di atas. Kemudian buka serial monitor untuk mengetahui IP
+Address ESP32.
+4. Akses IP Address ESP32 pada browser laptop. Dokumentasikan hasilnya dan
+buatlah flow chart dari program tersebut.
