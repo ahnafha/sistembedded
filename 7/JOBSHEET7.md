@@ -43,17 +43,21 @@ membutuhkan sebuah protokol lapisan transport yang dapat diandalkan. Protokol
 lainnya yang menyediakan layanan dan jaminan seperti itu juga dapat digunakan.
 ### LANGKAH PERCOBAAN
 A. Instalasi SQL Server (MySQL)
-1. Buka Terminal Ubuntu.
-2. Kemudian install mysql-server menggunakan perintah berikut.
+
+1.Buka Terminal Ubuntu.
+
+2.Kemudian install mysql-server menggunakan perintah berikut.
    
    ![7A(2)Kemudian install mysql-server menggunakan perintah berikut](https://github.com/ahnafha/sistembedded/assets/154432108/a3c4483a-c9f7-4e80-b30f-c8303c5ff048)
 
-4. Tunggu proses instalasi sampai selesai. Kemudian gunakan perintah berikut
+3.Tunggu proses instalasi sampai selesai. Kemudian gunakan perintah berikut
 untuk memastikan mysql telah terpasang dan aktif berjalan.
+
 ![7A(3)Tunggu proses instalasi sampai selesai  Kemudian gunakan perintah berikut](https://github.com/ahnafha/sistembedded/assets/154432108/4579611d-0a60-421f-83c0-c72459976729)
 
 4.Langkah selanjutnya adalah melakukan instalasi keamanan untuk database
 yang akan digunakan (set username dan password, dll).
+
 ![7A(4)Langkah selanjutnya adalah melakukan instalasi keamanan untuk database](https://github.com/ahnafha/sistembedded/assets/154432108/000a21d5-57ba-427a-afdc-4257e267798d)
 
 5.Kemudian setelah selesai instalasi, lakukan pengaturan username dan
@@ -62,6 +66,7 @@ password untuk user root di localhost seperti pada Gambar 6.1.
 
 6.Setelah itu ketik perintah exit untuk keluar dari mysql shell. Kemudian login
 menggunakan user root dan password yang telah dibuat sebelumnya.
+
 ![7A(6)Setelah itu ketik perintah exit untuk keluar dari mysql shell  Kemudian login](https://github.com/ahnafha/sistembedded/assets/154432108/5f8ea2dc-08a0-4ee9-b2dd-e163d41b07b6)
 
 7.Buat database menggunakan perintah berikut.
