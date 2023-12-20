@@ -5,5 +5,9 @@
 3B
 ![3B](https://github.com/ahnafha/sistembedded/assets/154432108/77db5044-efc5-469e-9d23-11cc6b25e3af)
 ![3Bhasil](https://github.com/ahnafha/sistembedded/assets/154432108/f3db3b1a-a56a-4d15-bafe-7335007288ce)
-https://github.com/ahnafha/sistembedded/assets/154432108/7eff5f47-c788-4230-b0de-12e7b0ace310
+
+
+https://github.com/ahnafha/sistembedded/assets/154432108/928dfdf8-6485-4976-84fd-63b949238fb3
+
+
 3C
