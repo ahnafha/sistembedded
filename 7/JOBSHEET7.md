@@ -84,3 +84,51 @@ pada script perintah barus kedua berikut.
 tabel menyesuaikan project masing-masing).
 
 ![7A(9)Buat tabel menggunakan perintah seperti pada Gambar 6 2  (nama dan row](https://github.com/ahnafha/sistembedded/assets/154432108/fd3943d6-9f5a-4fd3-b2c1-b352a05e0945)
+
+Basic Flow Transmisi Data Menggunakan Protokol HTTP
+1. Install Postman pada Komputer Windows, kemudian lakukan pendaftaran
+akun.
+2. Buatlah flow program seperti pada Gambar 6.3. Gunakan HTTP In node dan
+Debug Node.
+Gambar 6.3. Basic flow transmisi data menggunakan protokol HTTP
+3. Konfigurasi Input Dummy node seperti Gambar 6.4.
+Gambar 6.4. Konfigurasi pada Input Dummy Node
+4. Deploy flow program, kemudian masuk ke Postman. Konfigurasi Postman
+seperti pada Gambar 6.5A untuk mengirim data String dengan format
+encoded utf-8 dan Gambar 6.5B untuk mengirim data dalam format JSON.
+Klik Send untuk mengirim data. (Isian pada Body sama, Header berbeda).
+5. Langkah selanjutnya, dokumentasikan hasil keluaran dari flow program.
+
+![7B(1-5)](https://github.com/ahnafha/sistembedded/assets/154432108/e5077734-5c45-485c-bc6a-99a30c86b4ad)
+
+6. Setelah itu, buatlah flow program seperti Gambar 6.6 untuk melakukan
+parsing data JSON.
+Gambar 6.6. Flow program untuk parsing data JSON
+7. Kemudian konfigurasi Function/Validation node seperti pada Gambar 6.7.
+Ubah obj.variabel_datamu pada setiap node, sesuai dengan project masingmasing.
+Gambar 6.7. Konfigurasi pada Validation node
+8. Deploy program dan dokumentasikan hasil keluarannya.
+
+![7B(6-8)](https://github.com/ahnafha/sistembedded/assets/154432108/a2fdf79c-d8f3-405e-a92e-1c660f3db9ed)
+
+10. Buatlah flow program seperti pada Gambar 6.8 untuk simulasi transmisi data
+pada protokol HTTP dengan respons (acknowledgement/ack).
+Gambar 6.8. Flow program transmisi data pada protokol HTTP dengan respons
+11. Konfigurasi Validation node seperti Gambar 6.9.
+Gambar 6.9. Konfigurasi pada Validation node
+12. Kemudian, konfigurasi Router Node seperti Gambar 6.10.
+Gambar 6.10. Konfigurasi pada Router node
+13. Setelah itu, konfigurasi HTTP Response (Resp Ok dan Resp Bad) node
+seperti Gambar 6.11.
+Gambar 6.11. Konfigurasi pada HTTP Response node
+14. Kemudian kirimkan data JSON menggunakan Postman seperti pada pada
+Gambar 6.12 dan Gambar 6.13. Shape bertanda merah merupakan response
+dari server ketika data berhasil terkirim dan gagal terkirim.
+Gambar 6.12. Konfigurasi pada Postman dan response data berhasil terkirim
+Gambar 6.13. Konfigurasi pada Postman dan response data gagal terkirim
+15. Setelah itu,dokumentasikan hasilnya.
+    
+status=1 (data berhasil terkirim)
+![7B(9-14)status=1](https://github.com/ahnafha/sistembedded/assets/154432108/63cef779-f28e-4d06-aede-70844305d06c)
+status=0 (data gagal terkirim)
+![7B(9-14)status=0](https://github.com/ahnafha/sistembedded/assets/154432108/2c75f845-6db6-4f5a-998f-f1810e763e44)
