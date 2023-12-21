@@ -9,11 +9,9 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 
 
 ### c. Hasil dan Pembahasan
-hasil kode salah ssid pass
+
 ![3DHasil](https://github.com/ahnafha/sistembedded/assets/154432108/30da2944-2218-4cec-8816-d7b3c635e8ad)
 
-
-https://github.com/ahnafha/sistembedded/assets/154432108/aa63c62e-6449-4d8f-b834-e1fb8da65fb0
-
+ESP32  terhubung sebagai klien (mode Station) ke jaringan WiFi yang SSID dan passswordnya sudah diketahui. Kemudian ESP dapat mengganti hostname dari wifi yang terhubung.Kemudian serial monitor akan menampilkan proses koneksi WiFi, alamat IP lokal setelah berhasil terhubung dan juga nilai kekuatan sinyal WiFi (RSSI) melalui komunikasi serial.
 
 ### d. Flowchart
