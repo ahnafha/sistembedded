@@ -17,4 +17,4 @@ ESP32  terhubung sebagai klien (mode Station) ke jaringan WiFi yang SSID dan pas
 
 ### d. Flowchart
 
-![D](https://github.com/ahnafha/sistembedded/assets/154432108/6b3c6830-b8fa-42d1-9b9b-d15c21e73b4c)
+![D](https://github.com/ahnafha/sistembedded/assets/154432108/9442c23c-34a7-4cd2-8b0d-4696616b2332)
